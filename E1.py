@@ -2,7 +2,7 @@ from gpiozero import LED, Button
 from signal import pause
 
 # Configuración de los pines
-led1 = LED(18)  # GPIO 18 corresponde al pin físico 12
+led1 = LED(18)  # GPIO 18 corresponde al pin físico 12 holtsnfskdbvnjfjbnjknv
 led2 = LED(23)  # GPIO 23 corresponde al pin físico 16
 
 button1 = Button(17)  # GPIO 17 corresponde al pin físico 11
