@@ -1,3 +1,13 @@
+# ------------------------------------------------LABORATORIO 2-------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------------------
+#  Exercise 1. Using a button and 2 LEDs develop a system that can modify the
+#    LED status. The system should:
+#                  • State 1: Blink both LEDs alternating the sequence with 1 second intervals
+#                             (when LED 1 is turned on LED 2 is turned off).
+#                  • State 2: Both LEDs have to blink simultaneously with 2 seconds intervals.
+#                  • State 3: In this state both LEDS have to be turned ON indefinitely.
+#                  • State 4: This state turns off both LEDs.
+#-----------------------------------------------------------------------------------------------------------------------------------------
 from gpiozero import LED, Button
 import time
 
