@@ -1,3 +1,15 @@
+#############################################  LABORATORIO 2   #################################################
+# Exercise 3. 
+#  We have a greenhouse that needs to cultivate different types of
+#  vegetables. After some studies the team determined that the optimal temperature
+#  for a good crop goes from 12 to 20 °C. To improve the greenhouse the team
+#  decided to develop a temperature control system with the following features:
+
+#         • Turn on the heater if the temperature register is below 12 °C.
+#         • Turn on the fan when the temperature goes above 20 °C.
+#         • Turn off both devices if the temperature is optimal.
+##################################################################################################################
+
 from gpiozero import LED
 import Adafruit_DHT
 import time
