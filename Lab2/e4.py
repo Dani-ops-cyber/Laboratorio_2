@@ -1,3 +1,11 @@
+####################################  LABORATORIO 2   ##############################################################
+# Exercise 4. 
+#  Generate a program that will turn on 1 of 4 possible LEDs. To
+#  achieve this the system will have 2 buttons, the first one will select the LED to
+#  turn on and the second one will increase 1 second to the time the LED is turned
+#  on. When the first button is pressed the LED to activate will change to the next
+#  one and the time to turn on will reset to 1 second.
+
 from gpiozero import OutputDevice, InputDevice
 import time
 
